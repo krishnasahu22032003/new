@@ -1,18 +1,2 @@
 # new
-new test
-new test again
-changes test
-again
-new
-newone
-another one
-creating pr
-another pr
-yo
-hi
-hi there
-hello
-hello world
-hello world program
-new program
-hey hi there
+new file
