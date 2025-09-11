@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <header>
+    <h1>Welcome to Travel Explorer</h1>
+    <p>Discover your perfect destination with our personalized recommendations.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Beach Recommendations</h2>
+      <img src="images/beach1.jpg" alt="Beach 1">
+      <img src="images/beach2.jpg" alt="Beach 2">
+    </section>
+
+    <section>
+      <h2>Temple Recommendations</h2>
+      <img src="images/temple1.jpg" alt="Temple 1">
+      <img src="images/temple2.jpg" alt="Temple 2">
+    </section>
+
+    <section>
+      <h2>Country Recommendations</h2>
+      <select id="countrySelect">
+        <option value="">--Select a Country--</option>
+        <option value="japan">Japan</option>
+        <option value="india">India</option>
+      </select>
+      <button onclick="showRecommendation()">Show Recommendation</button>
+      <div id="recommendation"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
